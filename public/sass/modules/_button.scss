@@ -1,0 +1,13 @@
+// Import
+@import "./variable";
+@import "./mixin";
+
+// Button
+.btn-primary {
+    @include button($primary-color, $bg-secondary, 2px solid $primary-color);
+    @include hover-pulse();
+} // Button Primary
+.btn-secondary {
+    @include button(transparent, $primary-color, 2px solid $primary-color);
+    @include hover-pulse();
+} // Button Secondary

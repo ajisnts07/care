@@ -1,0 +1,215 @@
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f9322c;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f9322c;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f9322c;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f9322c;
+  }
+}
+h1 {
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #232323;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #6c757d;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #232323;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 20x;
+    line-height: 24px;
+    font-weight: 700;
+    color: #232323;
+    margin-bottom: 0;
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f9322c;
+  }
+}
+.btn-primary {
+  background-color: #f9322c;
+  color: #f3f4f5;
+  border: 2px solid #f9322c;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #f9322c;
+  color: #f3f4f5;
+  border: 2px solid #f9322c;
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 0.5em transparent;
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #f9322c;
+  border: 2px solid #f9322c;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: transparent;
+  color: #f9322c;
+  border: 2px solid #f9322c;
+}
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 0.5em transparent;
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body input:hover, body input:active, body input:focus,
+body button:hover,
+body button:active,
+body button:focus,
+body text-area:hover,
+body text-area:active,
+body text-area:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+body a {
+  text-decoration: none;
+}
+body main .container {
+  padding: 0 10vw;
+}
+body li {
+  list-style-type: none;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #f9322c;
+  }
+}
+header .navbar .navbar-brand img:hover {
+  transform: rotateZ(-5deg) scale(1.2);
+}
+header .navbar .navbar-brand h3 {
+  color: #f9322c;
+}
+header .navbar .navbar-brand .badge {
+  border: 2px solid #f9322c;
+}
+header .navbar .navbar-brand .badge p {
+  color: #f9322c;
+}
+header .navbar .navbar-brand .badge:hover, header .navbar .navbar-brand .badge:active, header .navbar .navbar-brand .badge:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 0.5em transparent;
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+header .navbar .toggler iconify-icon,
+header .navbar .offcanvas-header iconify-icon {
+  transition: ease-out 0.2s;
+  border-radius: 100%;
+}
+header .navbar .toggler iconify-icon:hover, header .navbar .toggler iconify-icon:active, header .navbar .toggler iconify-icon:focus,
+header .navbar .offcanvas-header iconify-icon:hover,
+header .navbar .offcanvas-header iconify-icon:active,
+header .navbar .offcanvas-header iconify-icon:focus {
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 0 0.5em transparent;
+  border-radius: 100%;
+  transform: scale(1.1);
+}
+header .navbar .offcanvas .dropdown:hover {
+  background-color: #f3f4f5;
+  transition: ease-out 0.2s;
+}
+header .navbar .offcanvas .dropdown .dropdown-menu {
+  margin-left: -8.8vw;
+  margin-top: -5vh;
+}
+header .navbar .offcanvas .dropdown .dropdown-item:hover {
+  background-color: #f3f4f5;
+}
+
+.login {
+  min-height: 100vh;
+}
+.login .card .card-header .header {
+  background-color: #f9322c;
+  margin-bottom: -20px;
+  z-index: 2;
+  position: relative;
+}
+.login .card .card-header .header .badge {
+  border: 2px solid #ffffff;
+}
+.login .card .card-header .header .badge p {
+  color: #ffffff;
+}
+.login .card .card-body label {
+  font-size: 14px;
+}
+.login .card .card-body input {
+  background-color: #f3f4f5;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.login .card .card-body p {
+  font-size: 14px;
+  opacity: 0.5;
+  color: #f9322c;
+}
+.login .card .card-body button {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

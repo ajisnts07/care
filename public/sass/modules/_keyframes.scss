@@ -1,0 +1,9 @@
+// Import
+@import "./variable";
+
+// Keyframes
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 $primary-color;
+    }
+} // Pulse

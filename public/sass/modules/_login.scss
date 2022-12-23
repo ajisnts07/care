@@ -1,0 +1,41 @@
+// Import
+@import "./variable";
+
+// Login Style
+.login {
+    min-height: 100vh;
+    .card {
+        .card-header {
+            .header {
+                background-color: $primary-color;
+                margin-bottom: -20px;
+                z-index: 2;
+                position: relative;
+                .badge {
+                    border: 2px solid $bg-primary;
+                    p {
+                        color: $bg-primary;
+                    }
+                }
+            }
+        }
+        .card-body {
+            label {
+                font-size: 14px;
+            }
+            input {
+                background-color: $bg-secondary;
+                font-size: 14px;
+                opacity: 0.8;
+            }
+            p {
+                font-size: 14px;
+                opacity: 0.5;
+                color: $primary-color;
+            }
+            button {
+                width: 100%;
+            }
+        }
+    }
+}

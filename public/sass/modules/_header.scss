@@ -1,0 +1,55 @@
+// Import
+@import "./variable";
+@import "./mixin";
+
+// Header Style
+header {
+    // Navbar
+    .navbar {
+        // Navbar-brand
+        .navbar-brand {
+            img {
+                &:hover {
+                    transform: rotateZ(-5deg) scale(1.2);
+                }
+            }
+            h3 {
+                color: $primary-color;
+            }
+            .badge {
+                border: 2px solid $primary-color;
+                p {
+                    color: $primary-color;
+                }
+                @include hover-pulse();
+            }
+        }
+        // Navbar-toggler
+        .toggler,
+        .offcanvas-header {
+            iconify-icon {
+                transition: ease-out 0.2s;
+                border-radius: 100%;
+                @include hover-pulse();
+            }
+        }
+        // Offcanvas
+        .offcanvas {
+            .dropdown {
+                &:hover {
+                    background-color: $bg-secondary;
+                    transition: ease-out 0.2s;
+                }
+                .dropdown-menu {
+                    margin-left: -8.8vw;
+                    margin-top: -5vh;
+                }
+                .dropdown-item {
+                    &:hover {
+                        background-color: $bg-secondary;
+                    }
+                }
+            }
+        }
+    }
+}

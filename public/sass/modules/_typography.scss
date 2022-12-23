@@ -1,0 +1,28 @@
+// Import
+@import "./variable";
+@import "./mixin";
+
+// Typography
+h1 {
+    @include typography(38px, 48px, 700, $text-primary);
+} // Heading 1
+h2 {
+    @include typography(24px, 28px, 700, $text-primary);
+} // Heading 2
+h3 {
+    @include typography(20px, 20px, 700, $text-primary);
+} // Heading 3
+p {
+    @include typography(16px, 20px, 400, $text-secondary);
+} // Paragraph
+
+// Mobile Configuration
+@media screen and (max-width: 768px) {
+    // Typography
+    h1 {
+        @include typography(26px, 36px, 700, $text-primary);
+    } // Heading 1
+    h2 {
+        @include typography(20x, 24px, 700, $text-primary);
+    } // Heading 2
+}

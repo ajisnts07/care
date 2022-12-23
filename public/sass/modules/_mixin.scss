@@ -1,0 +1,33 @@
+// Import
+@import "./keyframes";
+
+// Mixin
+@mixin typography($font-size, $line-height, $font-weight, $color) {
+    font-size: $font-size;
+    line-height: $line-height;
+    font-weight: $font-weight;
+    color: $color;
+    margin-bottom: 0;
+} // Typography
+@mixin button($background-color, $color, $border) {
+    background-color: $background-color;
+    color: $color;
+    border: $border;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $background-color;
+        color: $color;
+        border: $border;
+    }
+} // Button
+@mixin hover-pulse() {
+    &:hover,
+    &:active,
+    &:focus {
+        animation: pulse 1s;
+        box-shadow: 0 0 0 0.5em transparent;
+        border-radius: 100%;
+        transform: scale(1.1);
+    }
+} // Hover Pulse

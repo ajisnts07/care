@@ -1,0 +1,26 @@
+// Body Reset
+body {
+    margin: 0;
+    padding: 0;
+    input,
+    button,
+    text-area {
+        &:hover,
+        &:active,
+        &:focus {
+            outline: none !important;
+            box-shadow: none !important;
+        }
+    }
+    a {
+        text-decoration: none;
+    }
+    main {
+        .container {
+            padding: 0 10vw;
+        }
+    }
+    li {
+        list-style-type: none;
+    }
+}
