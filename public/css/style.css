@@ -200,7 +200,8 @@ header .navbar .offcanvas .dropdown .dropdown-item:hover {
 .login .card .card-body label {
   font-size: 14px;
 }
-.login .card .card-body input {
+.login .card .card-body input,
+.login .card .card-body text-area {
   background-color: #f3f4f5;
   font-size: 14px;
   opacity: 0.8;

@@ -6,12 +6,12 @@
     >
         <p>Masuk untuk mendapatkan bantuan terkait transaksi</p>
         <div class="d-flex justify-content-center align-items-center">
-            <a href="#">
+            <a href="/login">
                 <button class="btn btn-primary rounded-0 px-4 fw-bold">
                     Masuk
                 </button>
             </a>
-            <a href="#">
+            <a href="/help">
                 <button class="btn fw-bold px-4" style="color: #f9322c">
                     Tidak dapat masuk?
                 </button>

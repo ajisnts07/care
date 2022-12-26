@@ -15,7 +15,7 @@
         />
         <meta name="belidaging, care, rpa, robotic, costumer service" />
         <!-- Title Website -->
-        <title>Belidaging. care</title>
+        <title> {{ $title }} | Belidaging. care</title>
         <!-- Favicon Website -->
         <link
             rel="icon"
