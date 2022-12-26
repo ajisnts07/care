@@ -26,10 +26,20 @@
         <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
         <!-- CSS Stylesheet -->
         <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+        <script>
+            function scrollToTop() {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+        </script>
     </head>
     <body>
         <!-- Yield -->
         @yield('container')
+
+        <!-- Scroll To Top -->
+        <div class="position-fixed bottom-0 end-0 translate-middle d-none" onclick="scrollToTop()" id="back-to-up" style="cursor:pointer">
+            <iconify-icon icon="material-symbols:arrow-circle-up" width="40"></iconify-icon>
+        </div>
 
         <!-- Bootstrap Javascript -->
         <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>

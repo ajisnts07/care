@@ -13,7 +13,7 @@
     <!-- Nav-item -->
     <div class="nav-item">
         <!-- Button Daftar -->
-        <a href="#" class="nav-link">
+        <a href="/register" class="nav-link">
             <button class="btn btn-secondary rounded-0 px-4 fw-bold">Daftar</button>
         </a>
     </div>

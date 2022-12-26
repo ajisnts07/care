@@ -212,4 +212,37 @@ header .navbar .offcanvas .dropdown .dropdown-item:hover {
 }
 .login .card .card-body button {
   width: 100%;
+}
+
+.home .badge-role .badge {
+  background-color: #f9322c;
+  padding: 0 84px;
+}
+.home .carousel {
+  margin-top: -40px;
+}
+
+@media screen and (max-width: 768px) {
+  .home .badge-role {
+    position: absolute;
+    top: 10vh;
+  }
+  .home .badge-role .badge {
+    padding: 0 40px;
+  }
+  .home .col-sm-7 {
+    margin-top: -6vh;
+  }
+  .home .col-sm-5 {
+    margin-top: 10vh;
+  }
+  .home .carousel {
+    margin-top: 30px;
+  }
+}
+.box-login {
+  background-color: #f3f4f5;
+}
+.box-login p {
+  color: #232323;
 }/*# sourceMappingURL=style.css.map */

@@ -3258,6 +3258,9 @@ function withinMaxClamp(min, value, max) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+/* harmony import */ var _scrollToTop__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrollToTop */ "./resources/js/scrollToTop.js");
+/* harmony import */ var _scrollToTop__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_scrollToTop__WEBPACK_IMPORTED_MODULE_1__);
+
 
 
 /***/ }),
@@ -3312,6 +3315,32 @@ try {
   window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 } catch (e) {}
+
+/***/ }),
+
+/***/ "./resources/js/scrollToTop.js":
+/*!*************************************!*\
+  !*** ./resources/js/scrollToTop.js ***!
+  \*************************************/
+/***/ (() => {
+
+// ScrollToTop
+window.onscroll = function () {
+  toggleTopButton();
+};
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+function toggleTopButton() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("back-to-up").classList.remove("d-none");
+  } else {
+    document.getElementById("back-to-up").classList.add("d-none");
+  }
+}
 
 /***/ }),
 

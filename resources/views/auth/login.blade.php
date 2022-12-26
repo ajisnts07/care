@@ -40,7 +40,7 @@
                 <button class="btn btn-secondary rounded-0 fw-bold mb-2">
                     Masuk
                 </button>
-                <!-- Forgot Password -->
+                <!-- Register -->
                 <p class="text-end">Belum punya akun? <a href="/register" class="text-secondary">Daftar</a></p>
             </form>
         </div>

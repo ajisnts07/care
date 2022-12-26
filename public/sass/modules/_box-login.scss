@@ -1,0 +1,10 @@
+// Import
+@import "./variable";
+
+// Box-login
+.box-login {
+    background-color: $bg-secondary;
+    p {
+        color: $text-primary;
+    }
+}
